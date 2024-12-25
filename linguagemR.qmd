@@ -1,0 +1,49 @@
+
+```{=html}
+<style>
+body{text-align: justify}
+</style>
+```
+
+:::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+::::
+
+
+# Histórico da Linguagem R
+## A Linguagem S
+
+As raízes da linguagem de programação R estão na linguagem S e, de forma mais geral, no trabalho realizado por **John Chambers** nos **Laboratórios Bell**. Em meados da década de 1970, tendo estabelecido alguns dos principais marcos do software moderno, incluindo o sistema operacional UNIX e as linguagens de programação C e C++, os Laboratórios Bell concentraram sua atenção na análise estatística. Antes do S, eles desenvolveram uma biblioteca eficiente de Subrotinas de Computação Estatística (SCS) para a linguagem de programação compilada Fortran, mas logo perceberam que as frequentes análises estatísticas não padronizadas e do dia a dia exigiam um ambiente mais interativo e a possibilidade de explorar os dados que estavam sendo analisados. 
+
+Assim, entre 1975 e 1976 ( Figura 1 ), as equipes de pesquisa estatística do Bell Labs (incluindo John Chambers, Richard Becker e Allan Wilks) desenvolveram a linguagem S.
+
+
+
+:::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+::::
+
+
+
+## A Linguagem R
+
+No início da década de 1990, S havia se tornado muito popular entre estatísticos, e várias implementações foram criadas. Uma delas foi S-PLUS, que fornecia uma interface gráfica de usuário (GUI) intuitiva, mas foi lançada sob uma licença comercial. Durante esse período, Ross Ihaka era um recém-nomeado professor de estatística na Universidade de Auckland (Nova Zelândia), onde conheceu Robert Gentleman, um professor da Universidade de Waterloo (Canadá) em um ano sabático [ 5 ]. Seu encontro agitado iniciou o desenvolvimento de uma linguagem própria para análise estatística, ensino e “teste de ideias”. Essa nova linguagem de programação foi fortemente inspirada pela estrutura da linguagem funcional minimalista Scheme e pelo escopo, aparência e sintaxe de S, da qual R pode ser considerada uma implementação
+
+
+
+:::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+::::
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,123 @@
+```{=html}
+<style>
+body{text-align: justify}
+</style>
+```
+
+:::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+::::
+
+
+# Distribuição de Frequência
+## Conceitos Essenciais
+
+A distribuição de frequência é uma série estatística na qual a variável observada esta dividida em subintervalos do intervalo total observado e o tempo, a espécie e a região permanecem fixas.
+
+De forma geral, os dados podem ser classificados como:
+
+-   Dados Brutos: são os dados originais, que ainda não se encontram prontos para análise, por não estarem numericamente organizados. (Também são conhecidos como Tabela Primitiva).
+-   Rol: são um arranjo de dados numéricos brutos, organizados em ordem crescente ou decrescente de grandeza.
+-   Dados Discretos: a variável é discreta quando assume valores em pontos da reta real.
+-   Dados Contínuos: a variável pode assumir, teoricamente, qualquer valor em certo intervalo da reta real.
+-   Dados Tabelados Não Agrupados em Classes : os valores da variável aparecem individualmente.
+-   Dados Tabelados Agrupados em Classes: os valores da variável não aparecem individualmente, mas agrupados em classes.
+
+
+## Tabela Primitiva e Rol
+
+Tabela primitiva é um termo utilizado em estatística para se referir a uma tabela
+simples que apresenta os dados brutos ou não processados de uma pesquisa ou
+experimento. A tabela primitiva é considerada o primeiro passo na análise estatística de um
+conjunto de dados.
+
+
+## Aplitude da Classe (AT)
+
+Amplitude Total da Distribuição de Freqüência (AT): é a diferença existente
+entre os limites reais superior(maior) e inferior (menor) valor observado
+da distribuição de freqüência;
+
+
+\begin{equation}
+𝐴𝑇 = (𝐿𝑆 − 𝐿𝐼)
+\end{equation}
+
+
+
+## Intervalo de Classe (H)
+
+Intervalo de Classe (h): é o comprimento da classe, dado
+pela seguinte equação:
+
+
+
+\begin{equation}
+H = \left( \frac{AT}{K} \right) = \frac{(Maior \ Valor − Menor \ Valor))}{Numero \ de \ Classes}
+\end{equation}
+
+
+
+## Frequencia Simples ou Absoluta
+
+E o numero de observações contadas dentro de cada classe, ou seja, A frequência simples da i-ésima classe é o número total de observações.
+
+$$ \sum_{i=1}^{k} f_{i} = n $$
+
+
+## Frequencia Relativa
+
+
+$$ \sum_{i=1}^{k} f_{r_{i}} = \frac{f_{i}}{n} = 1 $$
+
+
+
+```{r distribuicao1}
+
+library(kableExtra)
+
+
+# Criando uma tabela
+data <- data.frame(
+  `Número` = c(1, 2, 3, 4, "...", "K"),
+  `Intervalo de Classes` = c("$LI_{1} \\vdash LS_{1}$", "$LI_{2} \\vdash LS_{2}$", "$LI_{3} \\vdash LS_{3}$", "$LI_{4} \\vdash LS_{4}$", "...", "$LI_{5} \\vdash LS_{5}$"),
+  `Frequência (f_i)` = c("$f_{1}$", "$f_{2}$", "$f_{3}$", "$f_{4}$", "...", "$f_{5}$"),
+  `Frequência Acumulada (F_i)` = c("$f_{i}$", "$F_{1} + f_{2}$", "$f-1+f_2+f_3$", "$f-1+f_2+f_3+f_4$", "...", "$F_{t}$"),
+  `Frequência Relativa (f_{r})` = c("$\\frac{f_{1}}{F_{t}}$", "$\\frac{f_{2}}{F_{t}}$", "$\\frac{f_{3}}{F_{t}}$", "$\\frac{f_{4}}{F_{t}}$", "...", "$\\frac{f_{k}}{F_{t}}$"),
+  `Frequência Relativa Acumulada (F_{r})` = c("$\\frac{f_{1}}{F_{t}}$", "$\\frac{f_{1} + f_{2}}{F_{t}}$", "$\\frac{f_{1} + f_{2} + f_{3}}{F_{t}}$", "$\\frac{f_{1} + f_{2} + f_{3} + f_{4}}{F_{t}}$", "...", "1"),
+  `Ponto Médio` = c("$\\frac{LI_{1} + LS_{1}}{2}$", "$\\frac{LI_{2} + LS_{2}}{2}$", "$\\frac{LI_{3} + LS_{3}}{2}$", "$\\frac{LI_{4} + LS_{4}}{2}$", "...", "$\\frac{LI_{k} + LS_{k}}{2}$")
+)
+
+# Adicionando a linha de cabeçalho secundária
+secondary_header <- data.frame(
+  `Número` = "",
+  `Intervalo de Classes` = "",
+  `Frequência (f_i)` = "$f_{i}$",
+  `Frequência Acumulada (F_i)` = "$F_{i}$",
+  `Frequência Relativa (f_{r})` = "$fr_{i}$",
+  `Frequência Relativa Acumulada (F_{r})` = "$Fr_{r}$",
+  `Ponto Médio` = "$PM_{i}$"
+)
+
+# Combinando o cabeçalho secundário com os dados
+data_combined <- rbind(secondary_header, data)
+
+# Convertendo para tabela em Markdown usando kable
+
+kableExtra::kable(data_combined, 
+                  format = "markdown", 
+                  col.names = c("", "Intervalo de Classes", 
+                                "Frequência", 
+                                "Frequência Acumulada", 
+                                "Frequência Relativa", 
+                                "Frequência Relativa Acumulada", 
+                                "Ponto Médio"), 
+                  escape = FALSE, 
+                  caption = "$LI$ = Limite Inferior; $LS$ = Limite Superior")
+```
+
+:::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+::::

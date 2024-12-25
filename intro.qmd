@@ -1,0 +1,158 @@
+```{=html}
+<style>
+body{text-align: justify}
+</style>
+```
+
+:::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+::::
+
+# Introdução a Estatística
+## Contextualização
+
+Na vasta extensão territorial da região amazônica a governança estatal é desafiada por uma série de questões complexas: a inclusão social e desenvolvimento humano; o acesso a serviços básicos e infraestrutura; a exploração de recursos naturais; a sustentabilidade da agricultura e agropecuária, a conservação da biodiversidade, proteção dos direitos das comunidades indígenas, cooperação internacional e diplomacia ambiental, dentre outros pontos. Ao explorar informações sobre setores-chave, como agricultura, turismo e indústria, podemos entender os impactos econômicos e ambientais das atividades das mesorregiões do Estado do Pará.
+
+Ao analisar indicadores de desenvolvimento humano, como educação, renda e acesso a serviços básicos, podemos indentificar desigualdades sociais e lacunas que precisam ser abordadas. Por meio das transformação e análise de dados é possível subsidiar e formular políticas públicas que equacionem o crescimento econômico, o desenvolvimento social de forma sustentável e a conservação dos recursos naturais.
+
+Nessse contexto, a utilização estratégia dos dados e informações se torna crucial para uma governança mais efetiva na região amazônica, capaz de subsidiar as melhores decisões, promovendo políticas públicas alinhadas com o bem-estar social e a preservação ambiental. Esse processo de monitoramento e análise contínua, permite a tomada de decisões fundamentadas e o aprimoramento constante das novas políticas públicas. E assim, a ciência estatística se faz como ponto convergência entre dados e governança. Ela tem o poder de contribuir exponencialmente com a governança estatal de uma região tão emblemática para o planeta terra.
+
+Mas, afinal, o que é **ESTATÍSTICA**?
+
+:::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+::::
+
+## Etimologia
+
+O latim é uma língua antiga que teve uma influência significativa no desenvolvimento de várias linguas modernas, e por isso não seria diferente com a palavra estatística, que deriva do latim. \vskip0.3cm
+
+Na realidade, pode-se perceber adiante que essa palavra esteve sempre atrelada ao aperfeiçoamento da forma de gerir nações e, mais atualmente, estados-nações. estatística tem raiz na expressão \textbf{Statisticum Collegium}, que significa (Conselho de Estado). O Conselho de Estado era uma ins-ti-tui-ção específica que existia na Alemanha durante o século XVIII, fundada pelo governo da Baviera. O Statisticum Collegium tinha a finalidade de reunir informações e realizar análises matemáticas relacionadas a assuntos públicos e governamentais. O termo \textbf{Statisticum} foi usado para descrever as atividades e o escopo dessa instituição.\vskip0.3cm
+
+Entretanto, já no final do século XVIII, o termo alemão \textbf{Statistik} foi introduzido pelo primeira vez por Gottfried Achenwall (1749), professor da Universidade de Gottingen, para designar a disciplina matemática que lidava com a coleta, análise e interpretação de dados. \vskip0.3cm
+
+Assim, a palavra Statistik entrou para o vocábulo alemão, influenciada pela evolução e adoção do termo em outros idiomas, como o latim e o italiano. Na Enciclopédia Britânica, o verbete \textbf{Statístics} apareceu em 1797 (STIGLER, 1990).
+
+A palavra adquiriu o significado de coleta e classificação de dados em geral através de Sir John Sinclair. Um político, escritor e estatístico britânico do século XVIII e início do século XIX. Desta forma, o propósito original da Statistik era fornecer os dados a serem usados pelo governo e outras organizações.
+
+A coleta de dados sobre estados e localidades continua, em grande parte através de órgãos estatais que cuidam das estatísticas oficiais, realizadas por meio dos Censos. Em particular, os censos fornecem informação regular sobre as populações. De igual modo, a palavra CENSO é derivada do termo latim CENSERE, que significa TAXAR. (STIGLER, 1990).
+
+:::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+::::
+
+## Aspectos Históricos
+
+A estatística surge em conjunto com a organização das sociedades primitivas, que passaram a ter a necessidade do conhecimento numérico de seus recursos disponíveis. Sendo assim, verifica-se que as primeiras aplicações do pensamento estatístico estavam voltadas para o Estado, fornecendo dados demográficos e econômicos para a criação de políticas públicas, taxação de impostos ou para o (alistamento) serviço militar (EMBRAPA, 2004).
+
+A contagem desempenha papel fundamental na estatística, pois permite que informações quantitativas sejam registradas e representadas de forma numérica. Embora, inicialmente, tenha permanecido em grande parte pouco visível, até porque pouco eram as coisas que precisavam ser contadas pelos povos primitivos, o ato de contar história da Estatística, e o desenvolvimento da matemática e da contabilidade propiciou o desenvolvimento de um método que mais tarde se tornaria Ciência.
+
+Um exemplo notável de registros históricos que evidenciou o nascimento da Estatística remonta a 5000 a.C, quando os antigos egípicios mantinham informações quantitativas sobre prisioneiros de guerra (MEMÓRIA, 2004). Há ainda outros indícios arqueológicos apontando para a falta de mão-de-obra relacionada à construção das pirâmides.
+
+Conforme relato no quarto livro do pentateuco bíblico, no tempo de Moisés, 1400 a.C, Deus ordenara que houvesse a contagem de todos os que poderiam lutar - todos os homens com mais de vinte anos. Um total de 603.550 estavam capacitados para o serviço militar. Ainda dentro do contexto histórico religioso, a narrativa do Evangelho de Lucas aponta que José, junto com a ua esposa Maria, foram de Nazaré até Belém, local onde nasceu Jesus, para serem contados e registrados com fins de tributação e controle administrativo.
+
+Este censo foi convocado pelo Imperador romano César Augusto, que havia conquistado aquela região do Oriente Médio (ECHEVESTE et al., 2005). Conforme o Cristianismo se disseminava pelo ocidente, a convicção de que o futuro era moldado por um deus se consolidava entre os povos. Desses registros também se utilizaram as civilizações pré-colombianas dos Maias, Incas e Astecas (LOPES e MEIRELES, 2005).
+
+Em 1085, Normando Guilherme, ”O Conquistador”, solicitou um levantamento estatístico da Inglaterra, que deveria conter informações sobre terras, proprietários, uso da terra, empregados e animais, dos conquistados anglo-saxões. Os resultados deste Censo foram publicados em 1086 no livro intitulado ”Domesday Book” e serviram de base para o cálculo de impostos. Na Enciclopédia Britânica, o verbete STATISTICS apareceu em 1797. (STIGLER, 1990).
+
+Esses primeiros dados estatísticos representam um marco significativo no desenvolvimento do campo, fornecendo uma base para a análise e compreensão dos eventos sociais e demográficos.
+
+:::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+::::
+
+# Conceitos Fundamentais em Estatística
+
+## Definição de Estatística
+
+É extremamente difícil definir a Estatística. O número de definições que se encontram é extremamente grande, tendo em vista que seu domínio é muito amplo. Assim, listam-se algumas definições formais acerca do que seria o conceito de Estatística.\vskip0.3cm
+
+Segundo Rao (1973), a estatística pode ser definida de uma forma simples e objetiva. Ele define a estatística pela equação:
+
+Neste sentido, o objetivo da Estatística é analisar os dados disponíveis e que estão sujeitos a um certo grau de incerteza no planejamento e obtenção de resultados (RAO, 1999).\vskip0.3cm
+
+Segundo Stein & Loesch (2008), a estatística é a ciência que se preocupa com a coleta, organização, apresentação, interpretação e análise de dados amostrais extraídos de uma determinada população.\vskip0.3cm
+
+O dicionário Aurélio (2005) definiu a estatística como uma parte da matemática em que se investigam os processos de obtenção, organização e análise de dados sobre uma população ou coleção de seres quaisquer, e os métodos de tirar conclusões e fazer predições com base nesses dados. \vskip0.3cm
+
+\%\newpage De acordo com Motta & Wagner (2003), a estatística é o ramo do conhecimento que se destina ao estudo dos processos de obtenção, coleta, organização, apresentação, análise e interpretação dos dados numéricos ou variáveis referentes a qualquer fenômeno, sobre uma população ou amostra.
+
+\newpage
+
+Segundo Batanero(2011) a partir do século XX, a Estatística passou a ser considerada uma das ciências metodológica fundamentais, sendo à base de método científico experimental . Nessa direção, destacamos que a Estatística é uma ciência que dispõe de métodos para coleta, organização, análise e interpretação de dados, a fim de subsidiar a tomada de decisões (GUIMARÃES, 2008; CAZORLA et al, 2017). \vskip0.3cm
+
+Sua importância reside no auxílio ao processo de pesquisa, que permeia todas as áreas do conhecimento que lidam com observações empíricas. Assim, podemos dizer que a Estatística é a ciência do significado e uso dos dados (CAZORLA et al, 2017). Dessa forma, não se resume a um conjunto de técnicas, uma vez que possibilita ao sujeito o desenvolvimento de sua autonomia e criticidade (LOPES, 2010). \vskip0.3cm
+
+Por sua vez os autores Sindelar et al (2014) concordam que a Estatística está presente em todas as áreas da ciência, que envolvam o planejamento do experimento, a construção de modelos, a coleta, o processamento e a análises de dados e sua consequente transformação em informação para validar hipóteses cientificas sobre um fenômeno observável. Os autores destacam que dessa maneira, a Estatística pode ser pensada como a ciência de aprendizagem a partir de dados. Eles defendem a ideia de que a aplicação de técnica estatística a dados meteorológicos tem a vantagem de compactar o enorme volume de dados, e dão exemplo onde podem ser organizados esses dados, em uma estação, em uma simples tabela ou em uma equação capaz de sumariar todas as informações de modo a facilitar as inferências sobre dados. Para os autores a Estatística é uma coleção de métodos para planejar experimentos, obter dados e organizá-los, resumi-los, analisá-los, interpretá-los e deles extrair conclusões. \vskip0.3cm
+
+Para Matsushita (2010) o primeiro entendimento necessário é que a Estatística é uma Ciência distinta da Matemática, e, portanto seus objetos de estudo são diferenciados. Mas embora Matsushita afirme que a Estatística seja uma Ciência, ela dá sua contribuição para Matemática e outras ciências principalmente em análise de dados (são usados seus conhecimentos em outras ciências). Também não se limita a um conjunto de elementos numéricos relativos a um fato social, nem a tabelas e gráficos usados para o resumo, a organização e apresentação dos dados de uma pesquisa, embora este seja um aspecto da Estatística que pode ser facilmente percebido no cotidiano. Mas, devem-se indagar as razões, por que a Estatística como uma Ciência se encontra incluída no currículo Matemático segundo os documentos oficiais (Brasil, 1997, 1998, 2018)? \vskip0.3cm
+
+Nesse sentido, Cobb e Moore (1997) apud Lopes (2013) que partem da seguinte tese: a Estatística é uma ciência porque tem forças culturais, mas no contexto brasileiro ela não tem uma “licenciatura”, ou seja, força organizacional e por isso pede abrigo na Matemática e assim faz apresentar esse conhecimento para Educação. Os autores ao compararem o pensamento estatístico com o pensamento matemático e de outras ciências dizem que a estatística sabe lidar com a variabilidade dos dados onde esses dados não são apenas números, são números com contextos.\vskip0.3cm
+
+Para Moore (2000), a Estatística constitui a ciência dos dados. O autor acrescenta ainda que: Não podemos escapar dos dados, assim como não podemos evitar o uso de palavras. Tal como palavras os dados não se interpretam a si mesmos, mas devem ser lidos com entendimento. Da mesma maneira que um escritor pode dispor as palavras em argumentos convincentes ou frases sem sentido, assim também os dados podem ser convincentes, enganosos ou simplesmente inócuos. A instrução numérica, a capacidade de acompanhar e compreender argumentos baseados em dados é importante para qualquer um de nós. O estudo da estatística é parte essencial de uma formação sólida (MOORE, 2000).
+
+Segundo Cobb e Moore (1997), na análise dos dados, o contexto fornece o significado. Para eles essa diferença tem profundas implicações para o ensino. Lopes (2013) acredita que para ensinar Estatística, não é suficiente entender a teoria matemática e os procedimentos estatísticos; é preciso fornecer ilustrações reais aos estudantes e saber como usá-los para envolver os alunos no desenvolvimento de seu juízo crítico.
+
+Dessa forma a Educação Estatística está centrada no estudo da compreensão de como as pessoas aprendem Estatística envolvendo os aspectos cognitivos e afetivos e o desenvolvimento de abordagens didáticas e de materiais de ensino. Para isso, a Educação Estatística precisa da contribuição da Educação Matemática, da Psicologia, da Pedagogia, da Filosofia, da Matemática, além da própria Estatística.
+
+Nesse contexto, o pensamento estatístico pode ser definido como a capacidade de utilizar e/ou interpretar, de forma adequada, as ferramentas estatísticas na solução problemas. Isto envolve o entendimento da essência dos dados e da possibilidade de fazer inferências, assim como o reconhecimento e a compreensão do valor da Estatística como uma disposição para pensar numa perspectiva da incerteza (CAZORLA et al, 2017).
+
+Assim, é possível distinguir duas concepções para a palavra ESTATÍSTICA: no plural (estatísticas), indica qualquer coleção de dados numéricos, reunidos com a finalidade de fornecer informações acerca de uma atividade qualquer. Assim, por exemplo, as estatísticas demográficas referem-se aos dados numéricos sobre nascimentos, falecimentos, matrimônios, desquites, etc. As estatísticas econômicas consistem em dados numéricos relacionados com emprego, produção, vendas e com outras atividades ligadas aos vários setores da vida econômica.
+
+No singular (Estatística), indica a atividade humana especializada ou um corpo de técnicas, ou ainda uma metodologia desenvolvida para a coleta, a classificação, a apresentação, a análise e a interpretação de dados quantitativos e a utilização desses dados para a tomada de decisões.
+
+O mundo está repleto de problemas. Para resolver a maioria deles, necessitamos de informações. Mas, que tipo de informação? Que quantidade de informações? Após obtê-las, o que fazer com elas? A Estatística trabalha com essas informações, associando os dados ao problema, descobrindo como e o que coletar de dados, assim capacitando o pesquisador (ou profissional ou cientista) a obter conclusões a partir dessas informações, de tal forma que possam ser entendidas por outras pessoas. Portanto, os métodos estatísticos auxiliam o cientista social, o economista, o engenheiro, o biólogo, o agrônomo e muitos outros profissionais a realizarem o seu trabalho com mais eficiência.
+
+Assim, uma igualdade que pode sintetizar as considerações descritas anteriormente sobre a estatística pode ser expressa como (PADOVANI, 2012):
+
+\begin{center}
+\fcolorbox{blue}{white}{ESTATÍSTICA} = \fcolorbox{blue}{white}{CIÊNCIA} + \fcolorbox{blue}{white}{TECNOLOGIA} + \fcolorbox{blue}{white}{ARTE}
+\end{center}
+
+A Estatística se divide didaticamente em duas partes: Descritiva e Inferencial
+
+:::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+::::
+
+## Estatística Descritiva
+### Definições
+
+É comum o profissional ou pesquisador defrontar-se com a situação de dispor de tantos dados que se torna difícil absorver completamente a informação que está procurando investigar. Com isso, se torna extremamente difícil captar intuitivamente todas as informações que os dados contêm, sendo necessário, portanto, que as informações sejam reduzidas até o ponto em que se possa interpretá-las mais claramente (MARTINS e DONAIRE, 1979).
+
+A Estatística Descritiva é um ramo da estatística que aplica várias técnicas para descrever e sumariar um conjunto de dados(TOLEDO e OVALLE, 1995).
+
+Stein e Loesch (2008) definem a estatística descritiva como o nome dado ao conjunto de técnicas analíticas utilizadas para resumir certo conjunto de todos os dados coletados numa determinada investigação. É a parte da estatística que procura descrever e avaliar certo grupo de dados seja ele a população ou a amostra. Em estatística descritiva têm-se dois métodos que podem ser usados para a apresentação dos dados: Métodos Gráficos e/ou Tabular e Métodos Numéricos, envolvendo apresentação de medidas estatísticas, entre outras.
+
+### Objetivo
+
+O objetivo da Estatística Descritiva é representar de uma forma concisa, sintética e compreensível, a informação contida num conjunto de dados. Esta tarefa, que adquire grande importância quando o volume de dados for grande, concretiza- se na elaboração de tabelas e de gráficos, e no cálculo de medidas ou indicadores que representam convenientemente a informação contida nos dados.
+
+A descrição dos dados também tem como objetivo identificar anomalias, até mesmo resultante do registro incorreto de valores, e dados dispersos, aqueles que não seguem a tendência geral do restante do conjunto. Não só nos artigos técnicos direcionados para pesquisadores, mas também nos artigos de jornais e revistas escritos para o público leigo, é cada vez mais freqüente a utilização destes recursos de descrição para complementar a apresentação de um fato, justificar ou referendar um argumento.
+
+Ao se condensar os dados, perde-se informação, pois não se têm as observações originais. Entretanto, esta perda de informação é pequena se comparada ao ganho que se tem com a clareza da interpretação proporcionada. Ao mesmo tempo que o uso das ferramentas estatísticas vem crescendo, aumenta também o abuso de tais ferramentas.
+
+É muito comum vermos em jornais e revistas, até mesmo em periódicos científicos, gráficos voluntariamente ou intencionalmente enganosos e estatísticas obscuras para justificar argumentos polêmicos.
+
+Assim, uma análise descritiva bem conduzida pode evitar vários problemas que podem ocorrer em análises mais complexas, permitindo visualizar muitas características que em outras análises podem passar despercebidas (CAMEY, et al, 2010).
+
+:::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+::::
+
+## Estatística Indutiva ou Inferencial
+
+Na maioria das vezes, é impraticável observar toda uma população, seja pelo custo alto seja por dificuldades operacionais. Examina-se então uma amostra, de preferência bastante representativa, para que os resultados obtidos possam ser generalizados para toda a população. Um experimento pode ter por finalidade a determinação da estimativa de um parâmetro de uma função. Toda conclusão tirada por amostragem, quando generalizada para a população, apresentará um grau de incerteza. Ao conjunto de técnicas e procedimentos que permitem dar ao pesquisador um grau de confiabilidade nas afirmações que faz para a população, baseadas nos resultados das amostras, damos o nome de Inferência Estatística. A estatística indutiva ou inferencial é a parte da estatística que, baseando-se em resultados obtidos da análise de uma amostra da população, procura inferir, induzir ou estimar as leis de comportamento da população da qual a amostra foi retirada. Refere-se a um processo de generalização a partir de resultados particulares (CASTANHEIRA, 2005).
+
+Por exemplo, suponha-se que deseja conhecer o grau de pureza de alumina a ser exportada por um navio no porto de Manaus. Como não se pode verificar esse grau de pureza em toda a população do minério, se pega uma parte como amostra e procedem-se na mesma os testes necessários. Suponha-se que o resultado obtido nesse teste é válido para toda a população. Esse processo de generalização, que é caracterizado do método indutivo, está associado a uma margem de incerteza, que se deve ao fato de que a conclusão, que se pretende obter para toda a população analisada, baseia-se em uma amostra do total de observações. A medida de incerteza é tratada mediante técnicas e métodos que se fundamentam na teoria das probabilidades.
+
+:::: progress
+::: {.progress-bar style="width: 100%;"}
+:::
+::::
